@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #f2f6ff;
+    /* background-color: #f2f6ff; */
     font-family: arial;
 }
 * {
@@ -41,13 +41,14 @@ header .right a {
     padding: 10px 25px;
     border-radius: 40px;
     text-decoration: none;
-    background-image: linear-gardient(269deg,#0048ff,#0096ff);
+    background-image: linear-gradient(269deg,#0048ff,#0096ff);
 }
 main {
     padding: 10px 50px;
     padding-top: 75px;
-    max-width: 1200px;
-    margin: 0 auto;
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+    background-color: #f2f6ff;
 }
 main P {
     display: flex;
@@ -57,16 +58,16 @@ main p img {
     width: 24px;
     margin-right: 5px;
 }
-filter button {
-    color: #0084ff;
+.filter button {
+    color:#0084ff;
     padding: 6px 16px;
     border-radius: 15px;
     border: 1px solid #0084ff;
     margin: 5px;
     cursor: pointer;
 }
-filter button:hover,
-filter button.active {
+.filter button:hover,
+.filter button.active {
     background-image: linear-gradient(269deg,#0048ff,#0096ff);
     color: white;
 }
@@ -78,11 +79,12 @@ filter button.active {
 }
 .posts .post {
     width: 30%;
-    box-shadow: 0 50px 20px 0 rgba(0, 0, 0, 1);
+    /* box-shadow: 0 50px 20px 0 rgba(0, 0, 0, 1); */
     margin: 10px;
     border-radius: 5px;
     overflow: hidden;
     border: 1px solid rgba(0, 168, 255, 3);
+    /* background-color: white; */
 }
 .posts .post img {
     width: 100%;
